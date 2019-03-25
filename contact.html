@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Lindsay Preston</title>
+  <title>About Me</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
@@ -23,14 +23,26 @@
 
     <div id="main-container" class="container">
         <section class="main-section">
-            <h1>About Me</h1>
-                <img src="assets/images/bio.jpg"
-                class="auth-image" alt="picture">
-
-            <p>I am a Colorado native and currently live in Longmont. I love living in this state! I enjoy painting, crafting, cooking, being outside and playing with my 8 year old black lab mutt, Milo. I also have 2 cats, Kitten and Dart and a fish named Sushi. 
-                <br>
-                I am looking forward to changing careers. I am currently in Real Estate and I am over the rollercoaster that is the sales game.
-            </p>
+            <h1>Contact</h1>
+               
+            <form id="contact-form">
+                <ul>
+                    <li>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="John Smith" required="required">
+                    </li>
+                    <li>
+                        <label for="email">Email</label>
+                        <input id="email" name="email"  placeholder="example@gmail.com" required="required">
+                    </li>
+                    <li> 
+                        <label for="message">Message</label>
+                        <textarea  name="message" id="message" required="required"></textarea>
+                    </li>
+                    </ul>
+                    <input type="submit" name="submit">
+                
+            </form>
 
         </section>
 
